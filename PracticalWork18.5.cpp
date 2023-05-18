@@ -11,7 +11,7 @@ public:
     int points;
 };
 
-bool compare(PlayerPoints& player1, PlayerPoints& player2)
+bool compare(const PlayerPoints& player1, const PlayerPoints& player2)
 {
     return player1.points > player2.points;
 }
